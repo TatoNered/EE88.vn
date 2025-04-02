@@ -88,6 +88,71 @@
             background-color: #222;
         }
     </style>
+    <!-- Добавление структурированных данных JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "EE88 BETTER",
+      "url": "https://tatonered.github.io/EE88.vn/",
+      "logo": "https://tatonered.github.io/EE88.vn/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+84 123 456 789",
+        "contactType": "customer service",
+        "areaServed": "VN"
+      },
+      "sameAs": [
+        "https://www.facebook.com/EE88BETTER",
+        "https://twitter.com/EE88BETTER",
+        "https://www.instagram.com/EE88BETTER"
+      ]
+    }
+    </script>
+
+    <!-- Разметка для отзыва -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Nguyen Anh"
+      },
+      "datePublished": "2025-04-01",
+      "reviewBody": "Trải nghiệm tuyệt vời với sòng bạc trực tuyến EE88. Đồ họa tuyệt vời và các khuyến mãi hấp dẫn."
+    }
+    </script>
+
+    <!-- Разметка для события -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": "Giải đấu Blackjack EE88",
+      "startDate": "2025-05-01T19:00:00+07:00",
+      "endDate": "2025-05-01T23:59:00+07:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "EE88 Casino",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Đường ABC",
+          "addressLocality": "Hồ Chí Minh",
+          "addressRegion": "TP.HCM",
+          "postalCode": "700000",
+          "addressCountry": "VN"
+        }
+      }
+    }
+    </script>
 </head>
 <body>
     <header>
