@@ -1,0 +1,78 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 16px;
+}
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.auth-buttons button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 30px;
+}
+.chat-support {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.game-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.game, .game-alt {
+    width: 30%;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.game-alt {
+    background-color: #444;
+    border: 2px solid #ffcc00;
+}
+.payment-section {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+}
